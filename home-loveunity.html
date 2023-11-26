@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>loveUnityGlobal</title>
+<link rel="stylesheet" href="https://use.typekit.net/aks2amc.css">
+<link type="text/css" rel="stylesheet" href="home.css" />
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="home.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+rel="stylesheet"
+type="text/css"
+/>
+<style>
+    
+
+    /* END PEOPLE STYLE*/
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  
+}
+
+</style>
+</head>
+
+<body>
+
+    <script>
+        document.bgColor = '#fff'
+    </script>
+
+
+    <script>
+        function DivUno(){
+           //alert("hola");
+           $("#div1").show();
+           
+       $("#div2").hide();
+         //alert("hola"); 
+        
+         $("#div3").hide();
+
+
+       }
+
+   function DivDos(){
+          
+           $("#div1").hide();
+       $("#div2").show();
+       $("#div3").hide();        
+
+       }
+
+       function DivTres(){
+          
+          $("#div1").hide();
+      $("#div2").hide();
+      $("#div3").show();        
+
+      }
+
+       function cerrarTodos(){
+        $("#div1").hide();
+       $("#div2").hide();
+       $("#div3").hide();
+
+       }
+    </script>
+
+
+    
+
+
+<div class="dots">
+	<div id="dot1" class="dot_a" onclick="MostrarDot(1);">
+	</div>
+    <div id="dot2" class="dot_b" onclick="MostrarDot(2);">
+	</div>
+    <div id="dot3" class="dot_b" onclick="MostrarDot(3);">
+	</div>
+    <div  id="dot4" class="dot_b" onclick="MostrarDot(4);">
+	</div>
+    <div id="dot5" class="dot_b" onclick="MostrarDot(5);">
+	</div>
+</div>
+
+
+<div class="home_top">
+
+	<div class="home_intro_izq">
+        <h1 style="font-size: 25px !important; color: #FF0098;">ABOUT</h1>
+        <h1 onmouseover="document.bgColor='#FFF224'; DivUno();" onmouseout="cerrarTodos(); document.bgColor='#fff'">LOVE </h1>
+        <br><h1 onmouseover="document.bgColor='#FF0098'; DivDos();" onmouseout="cerrarTodos(); document.bgColor='#fff'">UNITY</h1> 
+        <br><h1 onmouseover="document.bgColor='#00249C'; DivTres();" onmouseout="cerrarTodos(); document.bgColor='#fff'">GLOBAL</h1>
+       
+    
+        
+        </div>
+        <div style="display: none; margin-top:13%;" id="div1"  class= "home_intro_der_top" >
+
+            <div>
+             <img src="img/together.jpg" width="100%" >  
+            </div>
+        </div>   
+        
+        <div style="display: none; margin-top: 13%;" id="div2"  class= "home_intro_der_top" >
+
+            <div>
+             <img src="img/uni.jpg" width="100%" >  
+            </div>
+            
+        </div>
+        <div style="display: none; margin-top: 13%;" id="div3"  class= "home_intro_der_top" >
+
+            <div>
+             <img src="img/glo.jpg" width="100%" >  
+            </div>
+            
+        </div>
+       
+        <div class="cls"></div>
+    </div>
+
+
+</div>
+<div class="home_intro second_div"  >
+    <div>
+        <iframe src="http://loveunityglobal.info/people.html" style="width: 100%; height: 60vw;"></iframe>
+    </div>
+    </div>
+
+
+
+<div class="home_video" style="padding-top: 50px !important;">
+  <div class="home_video_titulo">
+    UNITED WE ARE BIGGER
+    </div>
+    <div class="home_video_youtube">
+        <p>
+            <b>loveUnityGlobal was born as the need...</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum nulla lobortis est feugiat, vel ornare lorem aliquam. Ut tincidunt, enim in lobortis malesuada, felis est vehicula purus, eget tempor sapien nisl eu turpis. Integer pharetra lobortis dignissim. Vestibulum congue diam tortor, nec sagittis lorem eleifend eu. Maecenas in eros nec velit pulvinar pellentesque ac a lectus. 
+        </p>
+        <p>
+           <b> If we unite we are capable of changing it all. The future is ours, and we will be able to fight against what has been written before. </b>
+        </p>
+    
+    </div>
+    <div class="home_video_icons">
+    <img src="assets2/video_icons.png" width="659" height="222" alt="Video" />
+    </div>
+</div>
+
+<div class="home_canhelp">
+  <div class="home_canhelp_titulo">
+    JOIN THE MOVEMENT
+    </div>
+    
+    <div class="home_canhelp_cont" style="text-align: center;">
+    <img src="img/Screen Shot 2020-10-29 at 12.41.04 PM.png" height="250px">
+    
+    </div>
+    
+    <div class="home_canhelp_icons">
+    
+    	<div class="home_canhelp_izq">
+        	<div class="home_canhelp_icon">
+       	    <img src="assets2/icon_spread.png" width="191" height="136" alt="Spread the word" />
+            </div>
+            
+            <div class="home_canhelp_btn" id="home_canhelp_btn" >
+   	        Share the facts
+            </div>
+            
+    	</div>
+        <div class="home_canhelp_der">
+        	<div class="home_canhelp_icon">
+   	        <img src="assets2/icon_getinvolved.png" width="205" height="125" alt="Get Involved" />
+            </div>
+            
+            <div class="home_canhelp_btn" id="home_canhelp_bethe_btn" >
+   	        Be the change
+            </div>
+            
+            
+    	</div>
+        <div class="cls"></div>
+    
+    </div>
+    
+    
+  <div class="home_share_facts_izq" id="home_share_facts_izq">
+   	 <div class="home_share_facts_izq_int">
+     	<div class="home_share_facts_izq_int_img">
+     	 <img src="redes_iconos.png" width="100%" alt="SocialMedia" /> 
+         <div class="home_share_facts_izq_int_a"><a class="home_share_facts_a" href="#Link1"> <div class="home_share_facts_a_d"></div> </a></div>
+         <div class="home_share_facts_izq_int_b"><a class="home_share_facts_a" href="#Link2"> <div class="home_share_facts_a_d"></div> </a></div>
+         <div class="home_share_facts_izq_int_c"><a class="home_share_facts_a" href="#Link3"> <div class="home_share_facts_a_d"></div> </a></div>
+        </div>
+     </div>
+   </div>
+   
+   <div class="home_share_facts_der" id="home_share_facts_der">
+   	 <div class="home_share_facts_der_int">
+     	
+        <div class="home_share_facts_der_int_div">
+        <input name="register" type="text" class="home_share_facts_der_int_inp" placeholder="name@email.com"  />
+        </div>
+        
+     	<div class="home_share_facts_der_int_btn">
+   	        Register
+        </div>
+            
+     </div>
+   </div>
+    
+    
+</div>
+
+
+<div class="home_colaboration">
+
+<div class="home_colaboration_int">
+       <div class="home_colaboration_izq">
+            ABOUT LOVEUNITYGLOBAL.US
+        </div>
+        <div class="home_colaboration_der">
+            LOREM IPSUM LOREM IPSUM LOREM IPSUM
+            <div class="home_colaboration_icons">
+            <img src="assets2/colaboration_icons.png" width="306" height="185" alt="Colaboration" />
+            </div>
+         </div>
+        <div class="cls"></div>
+    </div>
+</div>
+
+<div class="home_footer">
+	<div class="home_footer_menu">
+        <span>ABOUT US </span>
+        <span>MISSION </span>
+        <span>VISION </span>
+        <span>CONTACT US </span>
+	</div>
+    <div class="cls"></div>
+</div>
+
+
+</body>
+</html>
